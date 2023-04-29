@@ -77,6 +77,6 @@ const alltheshitsever = {
 function help() {
     const teamformation = [];
     for (let i = 0; i < 6; i++) {
-        teamformation[i] = alltheshitever[Math.foor(math.random() * 5)];
+        teamformation[i] = alltheshitever[Math.foor(math.random() * 76)];
     }
 }
