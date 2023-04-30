@@ -548,6 +548,22 @@
               "Soft-Boiled": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0},
               "Thunderbolt": {"type": "Electric", "category": "Special", "power": 90, "accuracy": 100}
             }
+          },
+          "Articuno": {
+            "Moveset": {
+              "Ice Beam": {"Type": "Ice", "Category": "Special", "BasePower": 90, "Accuracy": 100},
+              "Roost": {"Type": "Flying", "Category": "Status", "BasePower": null, "Accuracy": 101},
+              "Hurricane": {"Type": "Flying", "Category": "Special", "BasePower": 110, "Accuracy": 70},
+              "Freeze-Dry": {"Type": "Ice", "Category": "Special", "BasePower": 70, "Accuracy": 100}
+            }
+          },
+          "Zapdos": {
+            "Moveset": {
+              "Thunderbolt": {"Type": "Electric", "Category": "Special", "BasePower": 90, "Accuracy": 100},
+              "Roost": {"Type": "Flying", "Category": "Status", "BasePower": null, "Accuracy": 101},
+              "Heat Wave": {"Type": "Fire", "Category": "Special", "BasePower": 95, "Accuracy": 90},
+              "Drill Peck": {"Type": "Flying", "Category": "Physical", "BasePower": 80, "Accuracy": 100}
+            }
           }
         }
         
