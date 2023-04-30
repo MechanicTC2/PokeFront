@@ -39,8 +39,4 @@ function isEffective(atktype, deftype) {
   	}
 	return 1.0;
 }
-
-async function move(pokemon1, pokemon2, move1, move2) {
-    
-}
 module.exports = {calcDamage, isEffective};

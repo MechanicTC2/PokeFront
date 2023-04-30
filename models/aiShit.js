@@ -136,5 +136,3 @@ function superEffectiveMove(moves, playerType){
 //console.log(twitchCon)
 //console.log(lowhpSwitch(twitchCon, 0.2))
 console.log(superEffectiveMove({"moveset": {"Hydro Pump": {"type": "Water", "category": "Special", "power": 110, "accuracy": 80}, "Ice Beam": {"type": "Ice", "category": "Special", "power": 90, "accuracy": 100}, "Acid Armor": {"type": "Poison", "category": "Status", "power": null, "accuracy": null}, "Quick Attack": {"type": "Normal", "category": "Physical", "power": 40, "accuracy": 100}}}, "water"))
-
-module.exports = {teamForm, superEffectiveMove, superEffectiveSwitch, lowhpSwitch};

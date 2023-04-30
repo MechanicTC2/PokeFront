@@ -4,19 +4,16 @@ const playModel = require('../models/playModel');
 const aiShit = require('../models/aiShit');
 const pokemon = require('../pokemon.json');
 const pokemon_btype = require('../pokemon_type.json');
+const ai = require('../models/aiShit')
 
 /* GET home page. */
-router.get('/', async function(req, res) {
-  res.render('index', { title: 'PokeFront' })
-  console.log(await playModel.calcDamage("charizard", "scyther", 1, 95, "fire"));
-});
 
 router.get('/play', function(req, res) {
-  res.redirect('https://play.pokemonshowdown.com');
-  console.log(aiShit.superiorEffectiveMove({"moveset": {"Hydro Pump": {"type": "Water", "category": "Special", "power": 110, "accuracy": 80}, "Ice Beam": {"type": "Ice", "category": "Special", "power": 90, "accuracy": 100}, "Acid Armor": {"type": "Poison", "category": "Status", "power": null, "accuracy": null}, "Quick Attack": {"type": "Normal", "category": "Physical", "power": 40, "accuracy": 100}}}))
-  res.render('game', { title: "PokeFront Battle V.S. CPU"})
+var team1 = [];
+var team2 = []
+team1 = ai.teamForm()
+team2 = ai.teamForm()
+console.log(team1)
+  res.render('game', { title: "PokeFront Battle V.S. CPU", playerTeam: team1, enemyTeam: team2})
 });
-
-
-
 module.exports = router;
