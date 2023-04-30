@@ -96,7 +96,7 @@
           },
           "Clefable": {
             "moveset": {
-              "Moonblast": {"type": "Fairy", "category": "Special", "power": 95, "accuracy": 100},
+              "Moonblast": {"type": "Normal", "category": "Special", "power": 95, "accuracy": 100},
               "Soft-Boiled": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0},
               "Calm Mind": {"type": "Psychic", "category": "Status", "power": 0, "accuracy": 0},
               "Thunderbolt": {"type": "Electric", "category": "Special", "power": 90, "accuracy": 100}
@@ -384,7 +384,7 @@
           "Mr-mime": {
             "moveset": {
               "Psychic": {"type": "Psychic", "category": "Special", "power": 90, "accuracy": 100},
-              "Dazzling Gleam": {"type": "Fairy", "category": "Special", "power": 80, "accuracy": 100},
+              "Dazzling Gleam": {"type": "Normal", "category": "Special", "power": 80, "accuracy": 100},
               "Calm Mind": {"type": "Psychic", "category": "Status", "power": 0, "accuracy": 0},
               "Substitute": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0}
             }
