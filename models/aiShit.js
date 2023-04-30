@@ -1,6 +1,6 @@
 const alltheshitsever = require('../pokemon_type.json');
 
-function teamForm(index) {
+function teamForm() {
     let teamformation = [];
     let shitsotp = [];
     const sotp = Object.keys(alltheshitsever)

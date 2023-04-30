@@ -3,6 +3,7 @@ var router = express.Router();
 const playModel = require('../models/playModel');
 const pokemon = require('../pokemon.json');
 const pokemon_btype = require('../pokemon_type.json');
+const ai = require('../models/aiShit')
 
 /* GET home page. */
 router.get('/', async function(req, res) {
@@ -11,6 +12,9 @@ router.get('/', async function(req, res) {
 });
 
 router.get('/play', function(req, res) {
+var team1 = [];
+var team2 = []
+ai.teamForm
   res.render('game', { title: "PokeFront Battle V.S. CPU"})
 });
 
@@ -87,14 +91,6 @@ const HELP = {
     "mew": ["psychic"]
 }
 
-function help()
-{
-    const teamformation = [];
-    for(let i = 0; i < 6; i++)
-    {
-        teamformation[i] = Math.foor(math.random() * 5);
-    }
-}
 
 
 module.exports = router;
