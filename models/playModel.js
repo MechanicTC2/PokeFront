@@ -2,7 +2,7 @@ const pokemon = require('../pokemon');
 const pokemon_btype = require('../pokemon_type');
 const type_chart = require('../type_chart');
 
-function calcDamage(id, id2, crit, bpwr, atktype) {
+function calcDamage(id, id2, bpwr, atktype) {
     let type1 = pokemon_btype[id][0];
     let type2 = "";
     let type3 = "";
@@ -16,7 +16,7 @@ function calcDamage(id, id2, crit, bpwr, atktype) {
     if (type1 == atktype || type2 == atktype) {
         STAB = 1.5;
     }
-    let dmg = (((2 * 100 * crit) / 5) + 2) * bpwr * (pokemon[id].special_defense / pokemon[id2].special_defense);
+    let dmg = (((2 * 100 * 1.95) / 5) + 2) * bpwr * (pokemon[id].special_defense / pokemon[id2].special_defense);
     let weak1 = isEffective(atktype, pokemon_btype[id2][0]);
     let weak2 = isEffective(atktype, type3)
     dmg /= 50;
@@ -39,4 +39,9 @@ function isEffective(atktype, deftype) {
   	}
 	return 1.0;
 }
+
+function moveButtons(team){
+    
+}
+
 module.exports = {calcDamage, isEffective};

@@ -31,13 +31,13 @@ body {
   }
 #move{
   width: 20%; 
-  height: 100px !important;
+  height: 100px
 }
 #swit{
   width:13.3333333333%;
   height: 10%;
 }
-#rectangle{
+#hpbg1{
   position: absolute;
   width:300px;
   height:30px;
@@ -45,27 +45,27 @@ body {
   top: 150px;
   left:400px;
 }
-#rectangle2{
+#hp1{
   position: absolute;
-  width:296px;
-  height:26px;
+  width:295px;
+  height:25px;
   background:green;
-  top: 151px;
-  left:401px;
+  top: 150px;
+  left:400px;
 }
-#rectangle3{
+#hpbg2{
   position: absolute;
   width:300px;
   height:30px;
   background:gray;
-  top: 475px;
-  left:742.5px;
+  top: 485px;
+  left:755px;
 }
-#rectangle4{
+#hp2{
   position: absolute;
-  width:296px;
-  height:26px;
+  width:295px;
+  height:25px;
   background:green;
-  top: 476px;
-  left:743.5px;
+  top: 490px;
+  left: 760px;
 }
