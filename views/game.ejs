@@ -57,17 +57,20 @@
         <embed src="/music/music.mp3" loop="true" autostart="true" width="2"
         height="0">
         <center><h1><%= title %></h1></center>
-        <center><img src = "/images/battlebackground.png"; style = "width: 50%; height: 50%;"></center>
-        <img src = "/images/PBACK/<%=team1[0]%>.png" style = "position: absolute; top: 215px; left: 415px; height: 400px; width: 400px;">
-        <img src = "/images/PFRONT/<%=team2[0]%>.png" style = "position: absolute; top: 100px; left: 675px; height: 300px; width: 300px;">
-        <button type="button" id = "move" onclick='lol()'><%=move1%></button>
-        <button type="button" id = "move" onclick="loll()"><%=move2%></button>
-        <button type="button" id = "move" onclick="lolll()"><%=move3%></button>
-        <button type="button" id = "move" onclick="lollll()"><%=move4%></button>
-			
-        <div id = "rectangle"></div>
-        <div id = "rectangle2"></div>
-        <div id = "rectangle3"></div>
-        <div id = "rectangle4"></div>
+
+        <center>
+            <img src = "/images/PBACK/<%=team1[0]%>.png" style = "position: absolute; top: 215px; left: 415px; height: 400px; width: 400px;" id = "sp">
+            <img src = "/images/PFRONT/<%=team2[0]%>.png" style = "position: absolute; top: 100px; left: 675px; height: 300px; width: 300px;" id = "sp">
+            <img src = "/images/battlebackground.png"; style = "width: 50%; height: 50%;" id = "back"></center>
+        <center>
+            <button type="button" id = "move" onclick="">a</button>
+            <button type="button" id = "move" onclick="">b</button>
+            <button type="button" id = "move" onclick="">c</button>
+            <button type="button" id = "move" onclick="">d</button>
+        </center>
+        <div id = "hpbg1"></div>
+        <div id = "hp1"></div>
+        <div id = "hpbg2"></div>
+        <div id = "hp2"></div>
     </body>
 </html>

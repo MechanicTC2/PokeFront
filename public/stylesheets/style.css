@@ -23,7 +23,7 @@ body, html {
 .bg {
   z-index: -1;
   /* The image used */
-  background-image: url("https://media.discordapp.net/attachments/1070950784491065387/1102173811446661181/BG.png");
+  background-image: url("/images/background.png");
 
   /* Full height */
   height: 100%;
