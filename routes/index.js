@@ -27,11 +27,19 @@ router.get('/play', function(req, res) {
   const move2 = info[1]
   const move3 = info[2]
   const move4 = info[3]
+  
+  const moveDetails1 = moveset[info[0]];
+  const moveDetails2 = moveset[info[1]];
+  const moveDetails3 = moveset[info[2]];
+  const moveDetails4 = moveset[info[3]];
+
+  console.log(moveDetails1, moveDetails2, moveDetails3, moveDetails4)
+
 
   if (team1.length != 0 && team2.length != 0) {
     //apply supereffective damage if possible
     ai.move(team1, team2, t1hp, t2hp);
-    res.render('game', { title: "PokeFront Battle V.S. CPU", team1: team1, team2: team2, move1: move1, move2: move2, move3: move3, move4: move4});
+    res.render('game', { title: "PokeFront Battle V.S. CPU", team1: team1, team2: team2, move1: move1, move2: move2, move3: move3, move4: move4, moveDetails1:moveDetails1, moveDetails2:moveDetails2, moveDetails3:moveDetails3, moveDetails4:moveDetails4});
     }
 });
 
