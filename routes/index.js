@@ -23,4 +23,6 @@ router.get('/play', function(req, res) {
     res.render('game', { title: "PokeFront Battle V.S. CPU", team1: team1, team2: team2, t1hp: t1hp, t2hp: t2hp});
   }
 });
+
+
 module.exports = router;

@@ -9,6 +9,7 @@ function teamForm() {
     for(let i = 0; i < 6; i++) {
       teamformation[i] = keys[Math.floor(Math.random() * listLength)];
     }
+    teamformation.mainguy = teamformation["0"]
     return teamformation;
 }
 
@@ -75,4 +76,5 @@ function move(team1, team2, t1hp, t2hp) {
   }
   return {t1hp, t2hp};
 }
+
 module.exports = {teamForm, isSwitchLowHP, superEffectiveMove, move};

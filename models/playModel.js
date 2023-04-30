@@ -39,4 +39,9 @@ function isEffective(atktype, deftype) {
   	}
 	return 1.0;
 }
+
+function moveButtons(team){
+    
+}
+
 module.exports = {calcDamage, isEffective};
