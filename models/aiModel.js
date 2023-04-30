@@ -4,7 +4,7 @@ const moves = require('../moves');
 
 function teamForm() {
     let teamformation = [];
-    const keys = Object.keys(pokemon_type);
+    const keys = Object.keys(pokemon_btype);
     const listLength = keys.length;
     for(let i = 0; i < 6; i++) {
       teamformation[i] = keys[Math.floor(Math.random() * listLength)];
