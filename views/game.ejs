@@ -44,10 +44,10 @@
         <button type="button" id = "move" onclick=""><%= move3 %></button>
         <button type="button" id = "move" onclick=""><%= move4 %></button> -->
         <div class = "button-container">
-            <button id = "move" onclick="calcDamage(team1[0], team2[0], moves[team1[0]].moveset[move1].power, moves[team1[0]].moveset[move1].type)"><%= move1 %></button>
-            <button id = "move" onclick="calcDamage(team1[0], team2[0], moves[team1[0]].moveset[move2].power, moves[team1[0]].moveset[move2].type)"><%= move2 %></button>
-            <button id = "move" onclick="calcDamage(team1[0], team2[0], moves[team1[0]].moveset[move3].power, moves[team1[0]].moveset[move3].type)"><%= move3 %></button>
-            <button id = "move" onclick="calcDamage(team1[0], team2[0], moves[team1[0]].moveset[move4].power, moves[team1[0]].moveset[move4].type)"><%= move4 %></button>
+            <button id = "move" onclick="calcDamage(team1[0], team2[0], moveset[move1].power, moveset[move1].type.toLowerCase(), moveset[move1].category)"><%= move1 %></button>
+            <button id = "move" onclick="calcDamage(team1[0], team2[0], moveset[move1].power, moveset[move1].type.toLowerCase(), moveset[move2].category)"><%= move2 %></button>
+            <button id = "move" onclick="calcDamage(team1[0], team2[0], moveset[move1].power, moveset[move1].type.toLowerCase(), moveset[move3].category)"><%= move3 %></button>
+            <button id = "move" onclick="calcDamage(team1[0], team2[0], moveset[move1].power, moveset[move1].type.toLowerCase(), moveset[move4].category)"><%= move4 %></button>
         </div>
     </center>
         <div id = "hpbg1"></div>

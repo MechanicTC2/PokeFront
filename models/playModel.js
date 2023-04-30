@@ -29,13 +29,11 @@ function calcDamage(id, id2, bpwr, atktype, phy) {
         STAB = 1.5;
     }
     let dmg = (((2 * 100 * 1.95) / 5) + 2) * bpwr * (spd/ spd2);
-    console.log(pokemon_btype[id2][0])
     let weak1 = isEffective(atktype, pokemon_btype[id2][0]);
     let weak2 = isEffective(atktype, type3)
     dmg /= 50;
     dmg += 2;
     dmg *= STAB * weak1 * weak2 * ((Math.random() * (255 - 217) + 217) / 255);
-    console.log(dmg)
     return Math.floor(dmg);
 }
 
