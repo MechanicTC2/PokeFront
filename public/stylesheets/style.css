@@ -14,6 +14,12 @@ p{
 body, html {
   height: 100%;
 }
+#startbtn{
+  transition: transform 1.5s !important;
+}
+.zoom:hover{
+  transform: scale(1.23);
+}
 
 .bg {
   z-index: -1;
