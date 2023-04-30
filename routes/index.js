@@ -11,7 +11,10 @@ router.get('/', async function(req, res) {
 });
 
 router.get('/play', function(req, res) {
-  res.render('game', { title: "PokeFront Battle V.S. CPU"})
+  //randomize pokemon selection
+  let p1hp = ((((pokemon[pokemon1].hp + 31) * 2) * 100) / 100) + 110;
+  let p2hp = ((((pokemon[pokemon2].hp + 31) * 2) * 100) / 100) + 110;
+  res.render('game', { title: "PokeFront Battle V.S. CPU", p1hp, p2hp, p1, p2});
 });
 
 module.exports = router;
