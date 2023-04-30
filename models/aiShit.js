@@ -80,9 +80,14 @@ async function help() {
     }
     
     let mainguy = shitsotp[0];
-    for(let j = 0; j<2; i++)
-    {
-      mainguy = shitsotp[Math.floor(Math.random() * 5]
+    
+    let hp = 0.25;
+    let typeadvantage = new Boolean(false);
+    if((typeadvantage = false)&&(hp<=0.25)){
+        for(let j = 0; j<2; i++)
+            {
+                 mainguy = shitsotp[Math.floor(Math.random() * 5]
+            }
     }
     console.log(shitsotp)
     
