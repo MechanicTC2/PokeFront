@@ -11,7 +11,7 @@ router.get('/', async function(req, res) {
 });
 
 router.get('/play', function(req, res) {
-  res.redirect('https://play.pokemonshowdown.com');
+  res.render('game.ejs')
 });
 
 module.exports = router;
