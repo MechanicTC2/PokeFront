@@ -15,7 +15,7 @@ body {
   }
   
   .bg {
-    z-index: -1;
+    z-index: -2;
     /* The image used */
     background-image: url("/images/battlebackground.png");
   
@@ -24,12 +24,16 @@ body {
   
     /* Center and scale the image nicely */
   }
+  #back{
+    z-index: -3 !important;
+  }
   #pb{
     width: 45px; 
     top: 500px; 
     left: 250px
   }
 #move{
+  z-index: 10 !important;
   width: 20%; 
   height: 100px
 }
