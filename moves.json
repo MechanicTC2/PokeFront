@@ -3,8 +3,8 @@
         "moveset": {
             "Giga Drain": {"type": "Grass", "category": "Special", "power": 75, "accuracy": 100},
             "Sludge Bomb": {"type": "Poison", "category": "Special", "power": 90, "accuracy": 100},
-            "Sleep Powder": {"type": "Grass", "category": "Status", "power": 101, "accuracy": 75},
-            "Leech Seed": {"type": "Grass", "category": "Status", "power": 101, "accuracy": 90}
+            "Sleep Powder": {"type": "Grass", "category": "Status", "power": 0, "accuracy": 75},
+            "Leech Seed": {"type": "Grass", "category": "Status", "power": 0, "accuracy": 90}
         }
     },
     "Charizard": {
@@ -12,7 +12,7 @@
             "Flamethrower": {"type": "Fire", "category": "Special", "power": 90, "accuracy": 100},
             "Air Slash": {"type": "Flying", "category": "Special", "power": 75, "accuracy": 95},
             "Solar Beam": {"type": "Grass", "category": "Special", "power": 120, "accuracy": 100},
-            "Dragon Dance": {"type": "Dragon", "category": "Status", "power": 101, "accuracy": 101}
+            "Dragon Dance": {"type": "Dragon", "category": "Status", "power": 0, "accuracy": 0}
         }
     },
     "Blastoise": {
@@ -20,14 +20,14 @@
             "Hydro Pump": {"type": "Water", "category": "Special", "power": 110, "accuracy": 80},
             "Ice Beam": {"type": "Ice", "category": "Special", "power": 90, "accuracy": 100},
             "Rapid Spin": {"type": "Normal", "category": "Physical", "power": 20, "accuracy": 100},
-            "Toxic": {"type": "Poison", "category": "Status", "power": 101, "accuracy": 90}
+            "Toxic": {"type": "Poison", "category": "Status", "power": 0, "accuracy": 90}
         }
     },
     "Butterfree": {
         "moveset": {
             "Bug Buzz": {"type": "Bug", "category": "Special", "power": 90, "accuracy": 100},
-            "Quiver Dance": {"type": "Bug", "category": "Status", "power": 101, "accuracy": 101},
-            "Sleep Powder": {"type": "Grass", "category": "Status", "power": 101, "accuracy": 75},
+            "Quiver Dance": {"type": "Bug", "category": "Status", "power": 0, "accuracy": 0},
+            "Sleep Powder": {"type": "Grass", "category": "Status", "power": 0, "accuracy": 75},
             "Hurricane": {"type": "Flying", "category": "Special", "power": 110, "accuracy": 70}
         }
     },
@@ -36,15 +36,15 @@
             "Poison Jab": {"type": "Poison", "category": "Physical", "power": 80, "accuracy": 100},
             "Drill Run": {"type": "Ground", "category": "Physical", "power": 80, "accuracy": 95},
             "U-turn": {"type": "Bug", "category": "Physical", "power": 70, "accuracy": 100},
-            "Swords Dance": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101}
+            "Swords Dance": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0}
         }
     },
         "Pidgeot": {
           "moveset": {
             "Hurricane": {"type": "Flying", "category": "Special", "basePower": 110, "accuracy": 70},
             "Heat Wave": {"type": "Fire", "category": "Special", "basePower": 95, "accuracy": 90},
-            "Roost": {"type": "Flying", "category": "Status", "basePower": 101, "accuracy": 101},
-            "Defog": {"type": "Flying", "category": "Status", "basePower": 101, "accuracy": 101}
+            "Roost": {"type": "Flying", "category": "Status", "basePower": 0, "accuracy": 0},
+            "Defog": {"type": "Flying", "category": "Status", "basePower": 0, "accuracy": 0}
           }
         },
         "Fearow": {
@@ -52,7 +52,7 @@
             "Drill Peck": {"type": "Flying", "category": "Physical", "basePower": 80, "accuracy": 100},
             "Drill Run": {"type": "Ground", "category": "Physical", "basePower": 80, "accuracy": 95},
             "U-turn": {"type": "Bug", "category": "Physical", "basePower": 70, "accuracy": 100},
-            "Roost": {"type": "Flying", "category": "Status", "basePower": 101, "accuracy": 101}
+            "Roost": {"type": "Flying", "category": "Status", "basePower": 0, "accuracy": 0}
           }
         },
         "Arbok": {
@@ -60,21 +60,21 @@
             "Gunk Shot": {"type": "Poison", "category": "Physical", "basePower": 120, "accuracy": 80},
             "Earthquake": {"type": "Ground", "category": "Physical", "basePower": 100, "accuracy": 100},
             "Sucker Punch": {"type": "Dark", "category": "Physical", "basePower": 70, "accuracy": 100},
-            "Coil": {"type": "Poison", "category": "Status", "basePower": 101, "accuracy": 101}
+            "Coil": {"type": "Poison", "category": "Status", "basePower": 0, "accuracy": 0}
           }
         },  "Raichu": {
             "moveset": {
               "Thunderbolt": {"type": "Electric", "category": "Special", "power": 90, "accuracy": 100},
               "Grass Knot": {"type": "Grass", "category": "Special", "power": 0, "accuracy": 100},
               "Focus Blast": {"type": "Fighting", "category": "Special", "power": 120, "accuracy": 70},
-              "Nasty Plot": {"type": "Dark", "category": "Status", "power": 101, "accuracy": 101}
+              "Nasty Plot": {"type": "Dark", "category": "Status", "power": 0, "accuracy": 0}
             }
           },
           "Sandslash": {
             "moveset": {
               "Earthquake": {"type": "Ground", "category": "Physical", "power": 100, "accuracy": 100},
               "Stone Edge": {"type": "Rock", "category": "Physical", "power": 100, "accuracy": 80},
-              "Swords Dance": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101},
+              "Swords Dance": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0},
               "X-Scissor": {"type": "Bug", "category": "Physical", "power": 80, "accuracy": 100}
             }
           },
@@ -83,7 +83,7 @@
               "Earthquake": {"type": "Ground", "category": "Physical", "power": 100, "accuracy": 100},
               "Ice Beam": {"type": "Ice", "category": "Special", "power": 90, "accuracy": 100},
               "Thunderbolt": {"type": "Electric", "category": "Special", "power": 90, "accuracy": 100},
-              "Stealth Rock": {"type": "Rock", "category": "Status", "power": 101, "accuracy": 101}
+              "Stealth Rock": {"type": "Rock", "category": "Status", "power": 0, "accuracy": 0}
             }
           },
           "Nidoking": {
@@ -97,15 +97,15 @@
           "Clefable": {
             "moveset": {
               "Moonblast": {"type": "Fairy", "category": "Special", "power": 95, "accuracy": 100},
-              "Soft-Boiled": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101},
-              "Calm Mind": {"type": "Psychic", "category": "Status", "power": 101, "accuracy": 101},
+              "Soft-Boiled": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0},
+              "Calm Mind": {"type": "Psychic", "category": "Status", "power": 0, "accuracy": 0},
               "Thunderbolt": {"type": "Electric", "category": "Special", "power": 90, "accuracy": 100}
             }
           },
           "Ninetales": {
             "moveset": {
               "Fire Blast": {"type": "Fire", "category": "Special", "power": 110, "accuracy": 85},
-              "Nasty Plot": {"type": "Dark", "category": "Status", "power": 101, "accuracy": 101},
+              "Nasty Plot": {"type": "Dark", "category": "Status", "power": 0, "accuracy": 0},
               "Psyshock": {"type": "Psychic", "category": "Special", "power": 80, "accuracy": 100},
               "Solar Beam": {"type": "Grass", "category": "Special", "power": 120, "accuracy": 100}
             }
@@ -122,13 +122,13 @@
             "moveset": {
               "Solar Beam": {"type": "Grass", "category": "Special", "power": 120, "accuracy": 100},
               "Sludge Bomb": {"type": "Poison", "category": "Special", "power": 90, "accuracy": 100},
-              "Sleep Powder": {"type": "Grass", "category": "Status", "power": 101, "accuracy": 75},
-              "Synthesis": {"type": "Grass", "category": "Status", "power": 101, "accuracy": 101}
+              "Sleep Powder": {"type": "Grass", "category": "Status", "power": 0, "accuracy": 75},
+              "Synthesis": {"type": "Grass", "category": "Status", "power": 0, "accuracy": 0}
             }
           },
           "Parasect": {
             "moveset": {
-              "Spore": {"type": "Grass", "category": "Status", "power": 101, "accuracy": 100},
+              "Spore": {"type": "Grass", "category": "Status", "power": 0, "accuracy": 100},
               "Leech Life": {"type": "Bug", "category": "Physical", "power": 80, "accuracy": 100},
               "X-Scissor": {"type": "Bug", "category": "Physical", "power": 80, "accuracy": 100},
               "Brick Break": {"type": "Fighting", "category": "Physical", "power": 75, "accuracy": 100}
@@ -136,8 +136,8 @@
           },"Venomoth": {
             "moveset": {
               "Bug Buzz": {"type": "Bug", "category": "Special", "power": 90, "accuracy": 100},
-              "Sleep Powder": {"type": "Grass", "category": "Status", "power": 101, "accuracy": 75},
-              "Quiver Dance": {"type": "Bug", "category": "Status", "power": 101, "accuracy": 101},
+              "Sleep Powder": {"type": "Grass", "category": "Status", "power": 0, "accuracy": 75},
+              "Quiver Dance": {"type": "Bug", "category": "Status", "power": 0, "accuracy": 0},
               "Psychic": {"type": "Psychic", "category": "Special", "power": 90, "accuracy": 100}
             }
           },
@@ -146,13 +146,13 @@
               "Earthquake": {"type": "Ground", "category": "Physical", "power": 100, "accuracy": 100},
               "Rock Slide": {"type": "Rock", "category": "Physical", "power": 75, "accuracy": 90},
               "Sucker Punch": {"type": "Dark", "category": "Physical", "power": 80, "accuracy": 100},
-              "Reversal": {"type": "Fighting", "category": "Physical", "power": 101, "accuracy": 100}
+              "Reversal": {"type": "Fighting", "category": "Physical", "power": 0, "accuracy": 100}
             }
           },
           "Persian": {
             "moveset": {
               "Fake Out": {"type": "Normal", "category": "Physical", "power": 40, "accuracy": 100},
-              "Return": {"type": "Normal", "category": "Physical", "power": 101, "accuracy": 100},
+              "Return": {"type": "Normal", "category": "Physical", "power": 0, "accuracy": 100},
               "Hyper Beam": {"type": "Normal", "category": "Special", "power": 150, "accuracy": 100},
               "Foul Play": {"type": "Dark", "category": "Physical", "power": 95, "accuracy": 100}
             }
@@ -162,7 +162,7 @@
               "Surf": {"type": "Water", "category": "Special", "power": 90, "accuracy": 100},
               "Ice Beam": {"type": "Ice", "category": "Special", "power": 90, "accuracy": 100},
               "Psychic": {"type": "Psychic", "category": "Special", "power": 90, "accuracy": 100},
-              "Calm Mind": {"type": "Psychic", "category": "Status", "power": 101, "accuracy": 101}
+              "Calm Mind": {"type": "Psychic", "category": "Status", "power": 0, "accuracy": 0}
             }
           },
           "Primeape": {
@@ -178,7 +178,7 @@
               "Psychic": {"type": "Psychic", "category": "Special", "power": 90, "accuracy": 100},
               "Focus Blast": {"type": "Fighting", "category": "Special", "power": 120, "accuracy": 70},
               "Shadow Ball": {"type": "Ghost", "category": "Special", "power": 80, "accuracy": 100},
-              "Recover": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101}
+              "Recover": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0}
             }
           },
           "Machamp": {
@@ -193,7 +193,7 @@
             "moveset": {
               "Solar Beam": {"type": "Grass", "category": "Special", "power": 120, "accuracy": 100},
               "Sludge Bomb": {"type": "Poison", "category": "Special", "power": 90, "accuracy": 100},
-              "Sleep Powder": {"type": "Grass", "category": "Status", "power": 101, "accuracy": 75},
+              "Sleep Powder": {"type": "Grass", "category": "Status", "power": 0, "accuracy": 75},
               "Sucker Punch": {"type": "Dark", "category": "Physical", "power": 80, "accuracy": 100}
             }
           },
@@ -201,7 +201,7 @@
             "moveset": {
               "Scald": {"type": "Water", "category": "Special", "power": 80, "accuracy": 100},
               "Sludge Bomb": {"type": "Poison", "category": "Special", "power": 90, "accuracy": 100},
-              "Toxic Spikes": {"type": "Poison", "category": "Status", "power": 101, "accuracy": 101},
+              "Toxic Spikes": {"type": "Poison", "category": "Status", "power": 0, "accuracy": 0},
               "Rapid Spin": {"type": "Normal", "category": "Physical", "power": 50, "accuracy": 100}
             }
           },
@@ -210,22 +210,22 @@
               "Earthquake": {"type": "Ground", "category": "Physical", "power": 100, "accuracy": 100},
               "Rock Slide": {"type": "Rock", "category": "Physical", "power": 75, "accuracy": 90},
               "Explosion": {"type": "Normal", "category": "Physical", "power": 250, "accuracy": 100},
-              "Stealth Rock": {"type": "Rock", "category": "Status", "power": 101, "accuracy": 101}
+              "Stealth Rock": {"type": "Rock", "category": "Status", "power": 0, "accuracy": 0}
             }
           },
           "Ponyta": {
             "moveset": {
               "Flare Blitz": {"type": "Fire", "category": "Physical", "power": 120, "accuracy": 100},
               "Wild Charge": {"type": "Electric", "category": "Physical", "power": 90, "accuracy": 100},
-              "Morning Sun": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101},
-              "Low Kick": {"type": "Fighting", "category": "Physical", "power": 101, "accuracy": 100}
+              "Morning Sun": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0},
+              "Low Kick": {"type": "Fighting", "category": "Physical", "power": 0, "accuracy": 100}
             }
           },
           "Rapidash": {
             "moveset": {
               "Flare Blitz": {"type": "Fire", "category": "Physical", "power": 120, "accuracy": 100},
               "Wild Charge": {"type": "Electric", "category": "Physical", "power": 90, "accuracy": 100},
-              "Morning Sun": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101},
+              "Morning Sun": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0},
               "Drill Run": {"type": "Ground", "category": "Physical", "power": 80, "accuracy": 95}
             }
           },
@@ -233,23 +233,23 @@
             "moveset": {
               "Scald": {"type": "Water", "category": "Special", "power": 80, "accuracy": 100},
               "Psychic": {"type": "Psychic", "category": "Special", "power": 90, "accuracy": 100},
-              "Calm Mind": {"type": "Psychic", "category": "Status", "power": 101, "accuracy": 101},
-              "Slack Off": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101}
+              "Calm Mind": {"type": "Psychic", "category": "Status", "power": 0, "accuracy": 0},
+              "Slack Off": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0}
             }
           },
           "Magneton": {
             "moveset": {
               "Thunderbolt": {"type": "Electric", "category": "Special", "power": 90, "accuracy": 100},
               "Flash Cannon": {"type": "Steel", "category": "Special", "power": 80, "accuracy": 100},
-              "Thunder Wave": {"type": "Electric", "category": "Status", "power": 101, "accuracy": 101},
-              "Magnet Rise": {"type": "Electric", "category": "Status", "power": 101, "accuracy": 101}
+              "Thunder Wave": {"type": "Electric", "category": "Status", "power": 0, "accuracy": 0},
+              "Magnet Rise": {"type": "Electric", "category": "Status", "power": 0, "accuracy": 0}
             }
           },
           "Farfetch'd": {
             "moveset": {
               "Brave Bird": {"type": "Flying", "category": "Physical", "power": 120, "accuracy": 100},
               "Leaf Blade": {"type": "Grass", "category": "Physical", "power": 90, "accuracy": 100},
-              "Swords Dance": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101},
+              "Swords Dance": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0},
               "Quick Attack": {"type": "Normal", "category": "Physical", "power": 40, "accuracy": 100}
             }
           },
@@ -257,16 +257,16 @@
             "moveset": {
               "Drill Peck": {"type": "Flying", "category": "Physical", "power": 80, "accuracy": 100},
               "Jump Kick": {"type": "Fighting", "category": "Physical", "power": 100, "accuracy": 95},
-              "Agility": {"type": "Psychic", "category": "Status", "power": 101, "accuracy": 101},
-              "Return": {"type": "Normal", "category": "Physical", "power": 101, "accuracy": 100}
+              "Agility": {"type": "Psychic", "category": "Status", "power": 0, "accuracy": 0},
+              "Return": {"type": "Normal", "category": "Physical", "power": 0, "accuracy": 100}
             }
           },
           "Cloyster": {
             "moveset": {
               "Surf": {"type": "Water", "category": "Special", "power": 90, "accuracy": 100},
               "Ice Shard": {"type": "Ice", "category": "Physical", "power": 40, "accuracy": 100},
-              "Toxic Spikes": {"type": "Poison", "category": "Status", "power": 101, "accuracy": 101},
-              "Shell Smash": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101}
+              "Toxic Spikes": {"type": "Poison", "category": "Status", "power": 0, "accuracy": 0},
+              "Shell Smash": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0}
             }
           },
           "Gengar": {
@@ -274,31 +274,31 @@
               "Shadow Ball": {"type": "Ghost", "category": "Special", "power": 80, "accuracy": 100},
               "Sludge Bomb": {"type": "Poison", "category": "Special", "power": 90, "accuracy": 100},
               "Thunderbolt": {"type": "Electric", "category": "Special", "power": 90, "accuracy": 100},
-              "Destiny Bond": {"type": "Ghost", "category": "Status", "power": 101, "accuracy": 101}
+              "Destiny Bond": {"type": "Ghost", "category": "Status", "power": 0, "accuracy": 0}
             }
           },
           "Kingler": {
             "moveset": {
               "Crabhammer": {"type": "Water", "category": "Physical", "power": 100, "accuracy": 90},
               "Rock Slide": {"type": "Rock", "category": "Physical", "power": 75, "accuracy": 90},
-              "Swords Dance": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101},
-              "Agility": {"type": "Psychic", "category": "Status", "power": 101, "accuracy": 101}
+              "Swords Dance": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0},
+              "Agility": {"type": "Psychic", "category": "Status", "power": 0, "accuracy": 0}
             }
           },
           "Electrode": {
             "moveset": {
               "Thunderbolt": {"type": "Electric", "category": "Special", "power": 90, "accuracy": 100},
-              "Thunder Wave": {"type": "Electric", "category": "Status", "power": 101, "accuracy": 101},
+              "Thunder Wave": {"type": "Electric", "category": "Status", "power": 0, "accuracy": 0},
               "Explosion": {"type": "Normal", "category": "Physical", "power": 250, "accuracy": 100},
-              "Reflect": {"type": "Psychic", "category": "Status", "power": 101, "accuracy": 101}
+              "Reflect": {"type": "Psychic", "category": "Status", "power": 0, "accuracy": 0}
             }
           },
           "Exeggutor": {
             "moveset": {
               "Psychic": {"type": "Psychic", "category": "Special", "power": 90, "accuracy": 100},
               "Giga Drain": {"type": "Grass", "category": "Special", "power": 75, "accuracy": 100},
-              "Sleep Powder": {"type": "Grass", "category": "Status", "power": 101, "accuracy": 75},
-              "Leech Seed": {"type": "Grass", "category": "Status", "power": 101, "accuracy": 90}
+              "Sleep Powder": {"type": "Grass", "category": "Status", "power": 0, "accuracy": 75},
+              "Leech Seed": {"type": "Grass", "category": "Status", "power": 0, "accuracy": 90}
             }
           },
           "Marowak": {
@@ -306,7 +306,7 @@
               "Bonemerang": {"type": "Ground", "category": "Physical", "power": 50, "accuracy": 90},
               "Earthquake": {"type": "Ground", "category": "Physical", "power": 100, "accuracy": 100},
               "Rock Slide": {"type": "Rock", "category": "Physical", "power": 75, "accuracy": 90},
-              "Substitute": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101}
+              "Substitute": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0}
             }
           },
           "Hitmonlee": {
@@ -335,18 +335,18 @@
           },
           "Chansey": {
             "moveset": {
-              "Soft-Boiled": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101},
-              "Seismic Toss": {"type": "Fighting", "category": "Physical", "power": 101, "accuracy": 100},
-              "Thunder Wave": {"type": "Electric", "category": "Status", "power": 101, "accuracy": 101},
-              "Minimize": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101}
+              "Soft-Boiled": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0},
+              "Seismic Toss": {"type": "Fighting", "category": "Physical", "power": 0, "accuracy": 100},
+              "Thunder Wave": {"type": "Electric", "category": "Status", "power": 0, "accuracy": 0},
+              "Minimize": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0}
             }
           },
           "Tangela": {
             "moveset": {
               "Giga Drain": {"type": "Grass", "category": "Special", "power": 75, "accuracy": 100},
               "Ancient Power": {"type": "Rock", "category": "Special", "power": 60, "accuracy": 100},
-              "Sleep Powder": {"type": "Grass", "category": "Status", "power": 101, "accuracy": 75},
-              "Stun Spore": {"type": "Grass", "category": "Status", "power": 101, "accuracy": 75}
+              "Sleep Powder": {"type": "Grass", "category": "Status", "power": 0, "accuracy": 75},
+              "Stun Spore": {"type": "Grass", "category": "Status", "power": 0, "accuracy": 75}
             }
           },
           "Kangaskhan": {
@@ -362,7 +362,7 @@
               "Surf": {"type": "Water", "category": "Special", "power": 90, "accuracy": 100},
               "Ice Beam": {"type": "Ice", "category": "Special", "power": 90, "accuracy": 100},
               "Dragon Pulse": {"type": "Dragon", "category": "Special", "power": 85, "accuracy": 100},
-              "Smokescreen": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 100}
+              "Smokescreen": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 100}
             }
           },
           "Seadra": {
@@ -370,7 +370,7 @@
               "Hydro Pump": {"type": "Water", "category": "Special", "power": 110, "accuracy": 80},
               "Dragon Pulse": {"type": "Dragon", "category": "Special", "power": 85, "accuracy": 100},
               "Ice Beam": {"type": "Ice", "category": "Special", "power": 90, "accuracy": 100},
-              "Rain Dance": {"type": "Water", "category": "Status", "power": 101, "accuracy": 101}
+              "Rain Dance": {"type": "Water", "category": "Status", "power": 0, "accuracy": 0}
             }
           },
           "Kingdra": {
@@ -378,22 +378,22 @@
               "Hydro Pump": {"type": "Water", "category": "Special", "power": 110, "accuracy": 80},
               "Draco Meteor": {"type": "Dragon", "category": "Special", "power": 130, "accuracy": 90},
               "Ice Beam": {"type": "Ice", "category": "Special", "power": 90, "accuracy": 100},
-              "Rain Dance": {"type": "Water", "category": "Status", "power": 101, "accuracy": 101}
+              "Rain Dance": {"type": "Water", "category": "Status", "power": 0, "accuracy": 0}
             }
           },
           "Mr-mime": {
             "moveset": {
               "Psychic": {"type": "Psychic", "category": "Special", "power": 90, "accuracy": 100},
               "Dazzling Gleam": {"type": "Fairy", "category": "Special", "power": 80, "accuracy": 100},
-              "Calm Mind": {"type": "Psychic", "category": "Status", "power": 101, "accuracy": 101},
-              "Substitute": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101}
+              "Calm Mind": {"type": "Psychic", "category": "Status", "power": 0, "accuracy": 0},
+              "Substitute": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0}
             }
           },
           "Scyther": {
             "moveset": {
-              "Aerial Ace": {"type": "Flying", "category": "Physical", "power": 60, "accuracy": 101},
+              "Aerial Ace": {"type": "Flying", "category": "Physical", "power": 60, "accuracy": 0},
               "U-turn": {"type": "Bug", "category": "Physical", "power": 70, "accuracy": 100},
-              "Swords Dance": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101},
+              "Swords Dance": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0},
               "Brick Break": {"type": "Fighting", "category": "Physical", "power": 75, "accuracy": 100}
             }
           },
@@ -401,15 +401,15 @@
             "moveset": {
               "Ice Beam": {"type": "Ice", "category": "Special", "power": 90, "accuracy": 100},
               "Psychic": {"type": "Psychic", "category": "Special", "power": 90, "accuracy": 100},
-              "Lovely Kiss": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 75},
-              "Nasty Plot": {"type": "Dark", "category": "Status", "power": 101, "accuracy": 101}
+              "Lovely Kiss": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 75},
+              "Nasty Plot": {"type": "Dark", "category": "Status", "power": 0, "accuracy": 0}
             }
           },
           "Electabuzz": {
             "moveset": {
               "Thunderbolt": {"type": "Electric", "category": "Special", "power": 90, "accuracy": 100},
               "Focus Punch": {"type": "Fighting", "category": "Physical", "power": 150, "accuracy": 100},
-              "Thunder Wave": {"type": "Electric", "category": "Status", "power": 101, "accuracy": 101},
+              "Thunder Wave": {"type": "Electric", "category": "Status", "power": 0, "accuracy": 0},
               "Psychic": {"type": "Psychic", "category": "Special", "power": 90, "accuracy": 100}
             }
           },
@@ -418,14 +418,14 @@
               "Fire Blast": {"type": "Fire", "category": "Special", "power": 110, "accuracy": 85},
               "Thunder Punch": {"type": "Electric", "category": "Physical", "power": 75, "accuracy": 100},
               "Cross Chop": {"type": "Fighting", "category": "Physical", "power": 100, "accuracy": 80},
-              "Smokescreen": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101}
+              "Smokescreen": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0}
             }
           },
           "Pinsir": {
             "moveset": {
               "X-Scissor": {"type": "Bug", "category": "Physical", "power": 80, "accuracy": 100},
               "Earthquake": {"type": "Ground", "category": "Physical", "power": 100, "accuracy": 100},
-              "Swords Dance": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101},
+              "Swords Dance": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0},
               "Stone Edge": {"type": "Rock", "category": "Physical", "power": 100, "accuracy": 80}
             }
           },
@@ -440,7 +440,7 @@
           "Gyarados": {
             "moveset": {
               "Waterfall": {"type": "Water", "category": "Physical", "power": 80, "accuracy": 100},
-              "Dragon Dance": {"type": "Dragon", "category": "Status", "power": 101, "accuracy": 101},
+              "Dragon Dance": {"type": "Dragon", "category": "Status", "power": 0, "accuracy": 0},
               "Bounce": {"type": "Flying", "category": "Physical", "power": 85, "accuracy": 85},
               "Ice Fang": {"type": "Ice", "category": "Physical", "power": 65, "accuracy": 95}
             }
@@ -450,14 +450,14 @@
               "Surf": {"type": "Water", "category": "Special", "power": 90, "accuracy": 100},
               "Ice Beam": {"type": "Ice", "category": "Special", "power": 90, "accuracy": 100},
               "Thunderbolt": {"type": "Electric", "category": "Special", "power": 90, "accuracy": 100},
-              "Sing": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 55}
+              "Sing": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 55}
             }
           },
           "Vaporeon": {
             "moveset": {
               "Hydro Pump": {"type": "Water", "category": "Special", "power": 110, "accuracy": 80},
               "Ice Beam": {"type": "Ice", "category": "Special", "power": 90, "accuracy": 100},
-              "Acid Armor": {"type": "Poison", "category": "Status", "power": 101, "accuracy": 101},
+              "Acid Armor": {"type": "Poison", "category": "Status", "power": 0, "accuracy": 0},
               "Quick Attack": {"type": "Normal", "category": "Physical", "power": 40, "accuracy": 100}
             }
           },
@@ -465,7 +465,7 @@
             "moveset": {
               "Thunderbolt": {"type": "Electric", "category": "Special", "power": 90, "accuracy": 100},
               "Pin Missile": {"type": "Bug", "category": "Physical", "power": 100, "accuracy": 95},
-              "Thunder Wave": {"type": "Electric", "category": "Status", "power": 101, "accuracy": 90},
+              "Thunder Wave": {"type": "Electric", "category": "Status", "power": 0, "accuracy": 90},
               "Shadow Ball": {"type": "Ghost", "category": "Special", "power": 80, "accuracy": 100}
             }
           },
@@ -480,8 +480,8 @@
           "Porygon": {
             "moveset": {
               "Tri Attack": {"type": "Normal", "category": "Special", "power": 80, "accuracy": 100},
-              "Thunder Wave": {"type": "Electric", "category": "Status", "power": 101, "accuracy": 90},
-              "Recover": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101},
+              "Thunder Wave": {"type": "Electric", "category": "Status", "power": 0, "accuracy": 90},
+              "Recover": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0},
               "Ice Beam": {"type": "Ice", "category": "Special", "power": 95, "accuracy": 100}
             }
           },
@@ -489,7 +489,7 @@
             "moveset": {
               "Hydro Pump": {"type": "Water", "category": "Special", "power": 110, "accuracy": 80},
               "Rock Slide": {"type": "Rock", "category": "Physical", "power": 75, "accuracy": 90},
-              "Toxic Spikes": {"type": "Poison", "category": "Status", "power": 101, "accuracy": 101},
+              "Toxic Spikes": {"type": "Poison", "category": "Status", "power": 0, "accuracy": 0},
               "Ice Beam": {"type": "Ice", "category": "Special", "power": 95, "accuracy": 100}
             }
           },
@@ -497,7 +497,7 @@
             "moveset": {
               "Hydro Pump": {"type": "Water", "category": "Special", "power": 110, "accuracy": 80},
               "Rock Slide": {"type": "Rock", "category": "Physical", "power": 75, "accuracy": 90},
-              "Toxic Spikes": {"type": "Poison", "category": "Status", "power": 101, "accuracy": 101},
+              "Toxic Spikes": {"type": "Poison", "category": "Status", "power": 0, "accuracy": 0},
               "Ice Beam": {"type": "Ice", "category": "Special", "power": 95, "accuracy": 100}
             }
           },
@@ -505,7 +505,7 @@
             "moveset": {
               "Rock Slide": {"type": "Rock", "category": "Physical", "power": 75, "accuracy": 90},
               "Aqua Jet": {"type": "Water", "category": "Physical", "power": 40, "accuracy": 100},
-              "Toxic Spikes": {"type": "Poison", "category": "Status", "power": 101, "accuracy": 101},
+              "Toxic Spikes": {"type": "Poison", "category": "Status", "power": 0, "accuracy": 0},
               "Mega Drain": {"type": "Grass", "category": "Special", "power": 40, "accuracy": 100}
             }
           },
@@ -513,7 +513,7 @@
             "moveset": {
               "Waterfall": {"type": "Water", "category": "Physical", "power": 80, "accuracy": 100},
               "Stone Edge": {"type": "Rock", "category": "Physical", "power": 100, "accuracy": 80},
-              "Swords Dance": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101},
+              "Swords Dance": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0},
               "Aqua Jet": {"type": "Water", "category": "Physical", "power": 40, "accuracy": 100}
             }
           },
@@ -521,7 +521,7 @@
             "moveset": {
               "Fire Blast": {"type": "Fire", "category": "Special", "power": 110, "accuracy": 85},
               "Hurricane": {"type": "Flying", "category": "Special", "power": 110, "accuracy": 70},
-              "Roost": {"type": "Flying", "category": "Status", "power": 101, "accuracy": 101},
+              "Roost": {"type": "Flying", "category": "Status", "power": 0, "accuracy": 0},
               "Solar Beam": {"type": "Grass", "category": "Special", "power": 120, "accuracy": 100}
             }
           },
@@ -529,23 +529,23 @@
             "moveset": {
               "Outrage": {"type": "Dragon", "category": "Physical", "power": 120, "accuracy": 100},
               "Earthquake": {"type": "Ground", "category": "Physical", "power": 100, "accuracy": 100},
-              "Dragon Dance": {"type": "Dragon", "category": "Status", "power": 101, "accuracy": 101},
+              "Dragon Dance": {"type": "Dragon", "category": "Status", "power": 0, "accuracy": 0},
               "Hyper Beam": {"type": "Normal", "category": "Special", "power": 150, "accuracy": 90}
             }
           },
           "Mewtwo": {
             "moveset": {
               "Psychic": {"type": "Psychic", "category": "Special", "power": 90, "accuracy": 100},
-              "Aura Sphere": {"type": "Fighting", "category": "Special", "power": 80, "accuracy": 101},
-              "Recover": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101},
+              "Aura Sphere": {"type": "Fighting", "category": "Special", "power": 80, "accuracy": 0},
+              "Recover": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0},
               "Thunderbolt": {"type": "Electric", "category": "Special", "power": 90, "accuracy": 100}
             }
           },
           "Mew": {
             "moveset": {
               "Psychic": {"type": "Psychic", "category": "Special", "power": 90, "accuracy": 100},
-              "Transform": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101},
-              "Soft-Boiled": {"type": "Normal", "category": "Status", "power": 101, "accuracy": 101},
+              "Transform": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0},
+              "Soft-Boiled": {"type": "Normal", "category": "Status", "power": 0, "accuracy": 0},
               "Thunderbolt": {"type": "Electric", "category": "Special", "power": 90, "accuracy": 100}
             }
           }

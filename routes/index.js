@@ -20,7 +20,7 @@ router.get('/play', function(req, res) {
   if (team1.length != 0 && team2.length != 0) {
     //apply supereffective damage if possible
     ai.move(team1, team2, t1hp, t2hp);
-    res.render('game', { title: "PokeFront Battle V.S. CPU", team1: team1, team2: team2});
+    res.render('game', { title: "PokeFront Battle V.S. CPU", team1: team1, team2: team2, t1hp: t1hp, t2hp: t2hp});
   }
 });
 
