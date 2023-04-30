@@ -30,3 +30,8 @@ body {
   
     /* Center and scale the image nicely */
   }
+  #pb{
+    width: 45px; 
+    top: 500px; 
+    left: 250px
+  }
