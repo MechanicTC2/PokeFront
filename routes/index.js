@@ -11,7 +11,7 @@ router.get('/', async function(req, res) {
 });
 
 router.get('/play', function(req, res) {
-  res.render('game.ejs')
+  res.render('game', { title: "PokeFront Battle V.S. CPU"})
 });
 
 module.exports = router;

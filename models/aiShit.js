@@ -33,8 +33,14 @@ function aiSwitch(team, typeAdBool){
 }
 
 function superMoveShit(ifSuperEffective){
-  if(ifSuperEffective === true)
+  if(ifSuperEffective === true){
     console.log("yay super effective go brrrrr")
+  }
+}
+
+function stupidMoveSelect(availableMoves[])
+{
+    let moveSelect = availableMoves[Math.floor(Math.random * 3)]
 }
 
 function lowhpSwitch(team, hpoints){

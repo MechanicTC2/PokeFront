@@ -6,12 +6,7 @@ body {
 a {
   color: #00B7FF;
 }
-button{
-  width: 300px;
-  height: 200px;
-  outline-color: red;
-  border-radius: 20%;
-}
+
 p{
   margin-top: 0px;
   margin-bottom: 6px;
