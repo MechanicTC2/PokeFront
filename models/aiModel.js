@@ -1,22 +1,23 @@
 const playModel = require('./playModel');
 const pokemon_type = require('../pokemon_type.json');
+
 function teamForm() {
-    let teamformation = [];
+    let teamformation = {};
     const keys = Object.keys(pokemon_type);
     const listLength = keys.length;
     for(let i = 0; i < 6; i++) {
       teamformation[i] = keys[Math.floor(Math.random() * listLength)];
     }
+    teamformation.mainguy = teamformation["0"]
     return teamformation;
 }
 
 function superEffectiveSwitch(team, typeadvantage){
-  let mainguy = team[0];
   let change = Math.floor(Math.random() * 5); 
   let chooser = Math.floor(Math.random() * 5); 
 
   if ((typeadvantage === false) && (change === 4)) {
-    mainguy = team[chooser];
+    team.mainguy = team[chooser];
   }
   return mainguy;
 }
@@ -24,7 +25,7 @@ function superEffectiveSwitch(team, typeadvantage){
 function lowhpSwitch(team, hp) {
   let chooser = Math.floor(Math.random() * 5); 
   if ((hp <= 0.2)){
-    mainguy = team[chooser];
+    team.mainguy = team[chooser];
   }
   return mainguy;
 }

@@ -20,5 +20,9 @@ router.get('/play', function(req, res) {
   console.log(team1);
   console.log(team2);
   res.render('game', { title: "PokeFront Battle V.S. CPU", team1: team1, team2: team2});
+  const pp = ai.teamForm();
+  console.log("bruhh"+ai.lowhpSwitch(pp, 0.2))
 });
+
+
 module.exports = router;
