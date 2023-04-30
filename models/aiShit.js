@@ -78,7 +78,12 @@ async function help() {
     for(let i = 0; i<5; i++){
       shitsotp[i] = sotp[Math.floor(Math.random() * 5)]
     }
+    
     let mainguy = shitsotp[0];
+    for(let j = 0; j<2; i++)
+    {
+      mainguy = shitsotp[Math.floor(Math.random() * 5]
+    }
     console.log(shitsotp)
     
 }
