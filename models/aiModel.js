@@ -9,7 +9,6 @@ function teamForm() {
     for(let i = 0; i < 6; i++) {
       teamformation[i] = keys[Math.floor(Math.random() * listLength)];
     }
-    teamformation.mainguy = teamformation["0"]
     return teamformation;
 }
 
@@ -17,8 +16,14 @@ function isSwitchLowHP(team2, hp) {
   if (hp /((team2[0].hp + 15) * 2 * 100 / 100) + 110 <= 0.2) {
     return true;
   }
-  else {
-    return false;
+  return mainguy;
+}
+
+function lowhpSwitch(team, hp) {
+  let mainguy = team[0];
+  let chooser = Math.floor(Math.random() * team.length); 
+  if ((hp <= 0.2)){
+    team.mainguy = team[chooser];
   }
 }
 
