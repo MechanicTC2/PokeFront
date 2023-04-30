@@ -572,6 +572,46 @@
               "Crunch": {"Type": "Dark", "Category": "Physical", "BasePower": 80, "Accuracy": 100},
               "U-turn": {"Type": "Bug", "Category": "Physical", "BasePower": 70, "Accuracy": 100}
             }
+          },
+          "Arcanine": {
+            "Moveset": {
+              "Flare Blitz": {"Type": "Fire", "Category": "Physical", "Power": 120, "Accuracy": 100},
+              "Wild Charge": {"Type": "Electric", "Category": "Physical", "Power": 90, "Accuracy": 100},
+              "Extreme Speed": {"Type": "Normal", "Category": "Physical", "Power": 80, "Accuracy": 100},
+              "Close Combat": {"Type": "Fighting", "Category": "Physical", "Power": 120, "Accuracy": 100}
+            }
+          },
+          "Poliwrath": {
+            "Moveset": {
+              "Dynamic Punch": {"Type": "Fighting", "Category": "Physical", "Power": 100, "Accuracy": 50},
+              "Waterfall": {"Type": "Water", "Category": "Physical", "Power": 80, "Accuracy": 100},
+              "Ice Beam": {"Type": "Ice", "Category": "Special", "Power": 95, "Accuracy": 100},
+              "Hypnosis": {"Type": "Psychic", "Category": "Status", "Power": null, "Accuracy": 60}
+            }
+          },
+          "Dewgong": {
+            "Moveset": {
+              "Surf": {"Type": "Water", "Category": "Special", "Power": 90, "Accuracy": 100},
+              "Ice Beam": {"Type": "Ice", "Category": "Special", "Power": 95, "Accuracy": 100},
+              "Toxic": {"Type": "Poison", "Category": "Status", "Power": null, "Accuracy": 90},
+              "Protect": {"Type": "Normal", "Category": "Status", "Power": null, "Accuracy": null}
+            }
+          },
+          "Muk": {
+            "Moveset": {
+              "Gunk Shot": {"Type": "Poison", "Category": "Physical", "Power": 120, "Accuracy": 80},
+              "Curse": {"Type": "Ghost", "Category": "Status", "Power": null, "Accuracy": null},
+              "Fire Punch": {"Type": "Fire", "Category": "Physical", "Power": 75, "Accuracy": 100},
+              "Ice Punch": {"Type": "Ice", "Category": "Physical", "Power": 75, "Accuracy": 100}
+            }
+          },
+          "Hypno": {
+            "Moveset": {
+              "Psychic": {"Type": "Psychic", "Category": "Special", "Power": 90, "Accuracy": 100},
+              "Thunder Wave": {"Type": "Electric", "Category": "Status", "Power": null, "Accuracy": 90},
+              "Calm Mind": {"Type": "Psychic", "Category": "Status", "Power": null, "Accuracy": null},
+              "Seismic Toss": {"Type": "Fighting", "Category": "Physical", "Power": null, "Accuracy": 100}
+            }
           }
         }
         
