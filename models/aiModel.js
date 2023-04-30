@@ -4,21 +4,20 @@ const moves = require('../moves');
 
 function teamForm() {
     let teamformation = [];
-    const keys = Object.keys(pokemon_type);
+    const keys = Object.keys(pokemon_btype);
     const listLength = keys.length;
     for(let i = 0; i < 6; i++) {
       teamformation[i] = keys[Math.floor(Math.random() * listLength)];
     }
-    teamformation.mainguy = teamformation["0"]
     return teamformation;
 }
 
-function superEffectiveSwitch(team, typeadvantage){
+function superEffectiveSwitch(team, typeadvantage) {
   let mainguy = team[0];
-  let change = Math.floor(Math.random() * 5); 
-  let chooser = Math.floor(Math.random() * 5); 
+  let chance = Math.floor(Math.random() * 5); 
+  let chooser = Math.floor(Math.random() * team.length); 
 
-  if ((typeadvantage === false) && (change === 4)) {
+  if ((typeadvantage === false) && (chance === 3)) {
     mainguy = team[chooser];
   }
   return mainguy;
@@ -28,7 +27,7 @@ function lowhpSwitch(team, hp) {
   let mainguy = team[0];
   let chooser = Math.floor(Math.random() * team.length); 
   if ((hp <= 0.2)){
-    team.mainguy = team[chooser];
+    mainguy = team[chooser];
   }
   return mainguy;
 }
