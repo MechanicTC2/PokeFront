@@ -19,6 +19,6 @@ router.get('/play', function(req, res) {
   team2 = ai.teamForm();
   console.log(team1);
   console.log(team2);
-  res.render('game', { title: "PokeFront Battle V.S. CPU", playerTeam: team1, enemyTeam: team2});
+  res.render('game', { title: "PokeFront Battle V.S. CPU", team1: team1, team2: team2});
 });
 module.exports = router;
