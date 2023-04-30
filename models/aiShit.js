@@ -16,7 +16,7 @@ async function help() {
     if((typeadvantage = false)&&(hp<=0.25)&&switchchance(math.random * 5)=0){
         for(let j = 0; j<2; i++)
             {
-                 mainguy = shitsotp[Math.floor(Math.random() * 5]
+                 mainguy = shitsotp[Math.floor(Math.random() * 5)]
             }
     }
     console.log(shitsotp)
