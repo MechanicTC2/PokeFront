@@ -5,7 +5,7 @@ const playModel = require('../models/playModel');
 /* GET home page. */
 router.get('/', function(req, res) {
   res.render('index', { title: 'PokeFront' });
-  playModel.calcDamage("charizard", 1, 1, 1, 1, 1);
+  console.log(playModel.calcDamage("charizard", 100, 1, 95, 105, "fire"));
 });
 
 router.get('/play', function(req, res) {
