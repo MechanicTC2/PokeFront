@@ -40,7 +40,7 @@
         }
     },
         "Pidgeot": {
-          "moves": {
+          "moveset": {
             "Hurricane": {"type": "Flying", "category": "Special", "basePower": 110, "accuracy": 70},
             "Heat Wave": {"type": "Fire", "category": "Special", "basePower": 95, "accuracy": 90},
             "Roost": {"type": "Flying", "category": "Status", "basePower": 101, "accuracy": 101},
@@ -48,23 +48,15 @@
           }
         },
         "Fearow": {
-          "moves": {
+          "moveset": {
             "Drill Peck": {"type": "Flying", "category": "Physical", "basePower": 80, "accuracy": 100},
             "Drill Run": {"type": "Ground", "category": "Physical", "basePower": 80, "accuracy": 95},
             "U-turn": {"type": "Bug", "category": "Physical", "basePower": 70, "accuracy": 100},
             "Roost": {"type": "Flying", "category": "Status", "basePower": 101, "accuracy": 101}
           }
         },
-        "Ekans": {
-          "moves": {
-            "Gunk Shot": {"type": "Poison", "category": "Physical", "basePower": 120, "accuracy": 80},
-            "Earthquake": {"type": "Ground", "category": "Physical", "basePower": 100, "accuracy": 100},
-            "Sucker Punch": {"type": "Dark", "category": "Physical", "basePower": 70, "accuracy": 100},
-            "Coil": {"type": "Poison", "category": "Status", "basePower": 101, "accuracy": 101}
-          }
-        },
         "Arbok": {
-          "moves": {
+          "moveset": {
             "Gunk Shot": {"type": "Poison", "category": "Physical", "basePower": 120, "accuracy": 80},
             "Earthquake": {"type": "Ground", "category": "Physical", "basePower": 100, "accuracy": 100},
             "Sucker Punch": {"type": "Dark", "category": "Physical", "basePower": 70, "accuracy": 100},
@@ -161,7 +153,7 @@
             "moveset": {
               "Fake Out": {"type": "Normal", "category": "Physical", "power": 40, "accuracy": 100},
               "Return": {"type": "Normal", "category": "Physical", "power": 101, "accuracy": 100},
-              "Play Rough": {"type": "Fairy", "category": "Physical", "power": 90, "accuracy": 90},
+              "Hyper Beam": {"type": "Normal", "category": "Special", "power": 150, "accuracy": 100},
               "Foul Play": {"type": "Dark", "category": "Physical", "power": 95, "accuracy": 100}
             }
           },
@@ -389,7 +381,7 @@
               "Rain Dance": {"type": "Water", "category": "Status", "power": 101, "accuracy": 101}
             }
           },
-          "Mr. Mime": {
+          "Mr-mime": {
             "moveset": {
               "Psychic": {"type": "Psychic", "category": "Special", "power": 90, "accuracy": 100},
               "Dazzling Gleam": {"type": "Fairy", "category": "Special", "power": 80, "accuracy": 100},
