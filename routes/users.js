@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+const ai = require('../models/aiShit')
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {

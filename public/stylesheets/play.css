@@ -24,3 +24,16 @@ body {
   
     /* Center and scale the image nicely */
   }
+  #pb{
+    width: 45px; 
+    top: 500px; 
+    left: 250px
+  }
+#move{
+  width: 20%; 
+  height: 10%
+}
+#swit{
+  width:13.3333333333%;
+  height: 10%;
+}
