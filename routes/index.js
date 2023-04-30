@@ -36,7 +36,6 @@ router.get('/play', function(req, res) {
   }
   console.log("MOSDFSF " + moveset[move1].type)
   if (team1.length != 0 && team2.length != 0) {
-    playModel.calcDamage(team1[0], team2[0], moveset[move1].power, moveset[move1].type.toLowerCase(), moveset[move1].category)
     res.render('game', { title: "PokeFront Battle V.S. CPU", team1: team1, team2: team2, move1: move1, move2: move2, move3: move3, move4: move4, calcDamage: playModel.calcDamage, aiMove: ai.move, moves: moves});
     }
 });
