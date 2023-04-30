@@ -29,3 +29,11 @@ body {
     top: 500px; 
     left: 250px
   }
+#move{
+  width: 20%; 
+  height: 10%
+}
+#swit{
+  width:13.3333333333%;
+  height: 10%;
+}

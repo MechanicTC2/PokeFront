@@ -1,5 +1,8 @@
 const playModel = require('../models/playModel');
 
+<<<<<<< HEAD
+function teamForm() {
+=======
 const alltheshitsever = {
     "venusaur": ["grass", "poison"],
     "charizard": ["fire", "flying"],
@@ -78,6 +81,7 @@ const alltheshitsever = {
     "mew": ["psychic"]
 }
 function teamForm(index) {
+>>>>>>> fd8e317b74e5d7b02d60bc87c3f3bb7b96e5b71f
     let teamformation = [];
     let shitsotp = [];
     const sotp = Object.keys(alltheshitsever)
