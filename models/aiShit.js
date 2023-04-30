@@ -74,11 +74,11 @@ const alltheshitsever = {
 async function help() {
     let teamformation = [];
     let shitsotp = [];
-  
     const sotp = Object.keys(alltheshitsever)
     for(let i = 0; i<5; i++){
       shitsotp[i] = sotp[Math.floor(Math.random() * 5)]
     }
+    let mainguy = shitsotp[0];
     console.log(shitsotp)
     
 }
