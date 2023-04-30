@@ -12,17 +12,11 @@ router.get('/', async function(req, res) {
 });
 
 router.get('/play', function(req, res) {
-<<<<<<< HEAD
   //randomize pokemon selection
-  let p1hp = ((((pokemon[pokemon1].hp + 31) * 2) * 100) / 100) + 110;
-  let p2hp = ((((pokemon[pokemon2].hp + 31) * 2) * 100) / 100) + 110;
-  res.render('game', { title: "PokeFront Battle V.S. CPU", p1hp, p2hp, p1, p2});
-=======
-var team1 = [];
-var team2 = []
-ai.teamForm
-  res.render('game', { title: "PokeFront Battle V.S. CPU"})
->>>>>>> 38649d6e309e6a03ad2c3186b39851f9d8925d2d
+  res.render('game', { title: "PokeFront Battle V.S. CPU"});
+  var team1 = [];
+  var team2 = []
+  ai.teamForm();
 });
 
 const HELP = {

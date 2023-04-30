@@ -1,8 +1,6 @@
 const playModel = require('../models/playModel');
 
-<<<<<<< HEAD
 function teamForm() {
-=======
 const alltheshitsever = {
     "venusaur": ["grass", "poison"],
     "charizard": ["fire", "flying"],
@@ -81,7 +79,6 @@ const alltheshitsever = {
     "mew": ["psychic"]
 }
 function teamForm(index) {
->>>>>>> fd8e317b74e5d7b02d60bc87c3f3bb7b96e5b71f
     let teamformation = [];
     let shitsotp = [];
     const sotp = Object.keys(alltheshitsever)
@@ -143,4 +140,4 @@ function superMoveShit(moves, playerType){
 
 //const twitchCon = teamForm(alltheshitsever);
 //console.log(aiSwitch(twitchCon, 0.1))
-superMoveShit({"moveset": {"Hydro Pump": {"type": "Water", "category": "Special", "power": 110, "accuracy": 80}, "Ice Beam": {"type": "Ice", "category": "Special", "power": 90, "accuracy": 100}, "Acid Armor": {"type": "Poison", "category": "Status", "power": null, "accuracy": null}, "Quick Attack": {"type": "Normal", "category": "Physical", "power": 40, "accuracy": 100}}})
+superMoveShit({"moveset": {"Hydro Pump": {"type": "Water", "category": "Special", "power": 110, "accuracy": 80}, "Ice Beam": {"type": "Ice", "category": "Special", "power": 90, "accuracy": 100}, "Acid Armor": {"type": "Poison", "category": "Status", "power": null, "accuracy": null}, "Quick Attack": {"type": "Normal", "category": "Physical", "power": 40, "accuracy": 100}}}, "fire")}
