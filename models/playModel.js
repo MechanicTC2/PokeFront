@@ -16,8 +16,8 @@ function calcDamage(id, id2, bpwr, atktype, phy) {
         spd2 = 1;
     }
     let type1 = pokemon_btype[id][0];
-    let type2 = "";
-    let type3 = "";
+    let type2 = "normal";
+    let type3 = "normal";
     let STAB = 1;
     try {
         type2 = pokemon_btype[id][1];
@@ -30,7 +30,6 @@ function calcDamage(id, id2, bpwr, atktype, phy) {
     }
     let dmg = (((2 * 100 * 1.95) / 5) + 2) * bpwr * (spd/ spd2);
     console.log(pokemon_btype[id2][0])
-    console.log(isEffective(atktype, pokemon_btype[id2][0]))
     let weak1 = isEffective(atktype, pokemon_btype[id2][0]);
     let weak2 = isEffective(atktype, type3)
     dmg /= 50;
@@ -41,6 +40,7 @@ function calcDamage(id, id2, bpwr, atktype, phy) {
 }
 
 function isEffective(atktype, deftype) {
+    console.log(atktype)
 	for (let i = 0; i < type_chart[atktype].effective.length; i++) {
 		if (type_chart[atktype].effective[i] == deftype) {
 			//checks if super effective
