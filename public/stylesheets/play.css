@@ -37,3 +37,35 @@ body {
   width:13.3333333333%;
   height: 10%;
 }
+#rectangle{
+  position: absolute;
+  width:300px;
+  height:30px;
+  background:gray;
+  top: 150px;
+  left:400px;
+}
+#rectangle2{
+  position: absolute;
+  width:296px;
+  height:26px;
+  background:green;
+  top: 151px;
+  left:401px;
+}
+#rectangle3{
+  position: absolute;
+  width:300px;
+  height:30px;
+  background:gray;
+  top: 475px;
+  left:742.5px;
+}
+#rectangle4{
+  position: absolute;
+  width:296px;
+  height:26px;
+  background:green;
+  top: 476px;
+  left:743.5px;
+}
