@@ -564,6 +564,14 @@
               "Heat Wave": {"Type": "Fire", "Category": "Special", "BasePower": 95, "Accuracy": 90},
               "Drill Peck": {"Type": "Flying", "Category": "Physical", "BasePower": 80, "Accuracy": 100}
             }
+          },
+          "Raticate": {
+            "Moveset": {
+              "Facade": {"Type": "Normal", "Category": "Physical", "BasePower": 70, "Accuracy": 100},
+              "Sucker Punch": {"Type": "Dark", "Category": "Physical", "BasePower": 70, "Accuracy": 100},
+              "Crunch": {"Type": "Dark", "Category": "Physical", "BasePower": 80, "Accuracy": 100},
+              "U-turn": {"Type": "Bug", "Category": "Physical", "BasePower": 70, "Accuracy": 100}
+            }
           }
         }
         
