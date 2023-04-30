@@ -1,5 +1,82 @@
-const alltheshitsever = require('../pokemon_type.json');
+const playModel = require('../models/playModel');
 
+const alltheshitsever = {
+    "venusaur": ["grass", "poison"],
+    "charizard": ["fire", "flying"],
+    "blastoise": ["water"],
+    "butterfree": ["bug", "flying"],
+    "beedrill": ["bug", "poison"],
+    "raticate": ["normal"],
+    "fearow": ["normal", "flying"],
+    "pidgeot": ["normal", "flying"],
+    "arbok": ["poison"],
+    "raichu": ["electric"],
+    "sandslash": ["ground"],
+    "nidoking":["ground", "poison"],
+    "nidoqueen": ["ground", "poison"],
+    "clefable": ["normal"],
+    "ninetales": ["fire"],
+    "wigglytuff": ["normal"],
+    "vileplume": ["grass", "poison"],
+    "parasect": ["bug", "grass"],
+    "venomoth": ["bug", "poison"],
+    "dugtrio": ["ground"],
+    "persian": ["normal"],
+    "golduck": ["water"],
+    "primeape": ["fighting"],
+    "arcanine": ["fire"],
+    "poliwrath": ["water", "fighting"],
+    "alakazam": ["psychic"],
+    "machamp": ["fighting"],
+    "victreebel": ["grass", "poison"],
+    "tentacruel": ["water", "poison"],
+    "golem": ["rock", "ground"],
+    "rapidash": ["fire"],
+    "slowbro": ["water", "psychic"],
+    "dodrio": ["normal", "flying"],
+    "dewgong": ["water", "ice"],
+    "muk": ["poison"],
+    "cloyster": ["water", "ice"],
+    "gengar": ["ghost", "poison"],
+    "hypno": ["psychic"],
+    "kingler": ["water"],
+    "electrode": ["electric"],
+    "exeggutor": ["grass", "psychic"],
+    "marowak": ["ground"],
+    "hitmonlee": ["fighting"],
+    "hitmonchan": ["fighting"],
+    "weezing": ["poison"],
+    "rhydon": ["ground", "rock"],
+    "chansey": ["normal"],
+    "tangela": ["grass"],
+    "kangaskhan": ["normal"],
+    "seadra": ["water"],
+    "seaking": ["water"],
+    "starmie": ["water", "psychic"],
+    "mr-mime": ["psychic"],
+    "scyther": ["bug", "flying"],
+    "jynx": ["ice", "psychic"],
+    "electabuzz": ["electric"],
+    "magmar": ["fire"],
+    "pinsir": ["bug"],
+    "tauros": ["normal"],
+    "gyarados": ["water", "flying"],
+    "lapras": ["water", "ice"],
+    "vaporeon": ["water"],
+    "jolteon": ["electric"],
+    "flareon": ["fire"],
+    "porygon": ["normal"],
+    "omastar": ["rock", "water"],
+    "kabutops": ["rock", "water"],
+    "aerodactyl": ["rock", "flying"],
+    "snorlax": ["normal"],
+    "articuno": ["ice", "flying"],
+    "zapdos": ["electric", "flying"],
+    "moltres": ["fire", "flying"],
+    "dragonite": ["dragon", "flying"],
+    "mewtwo": ["psychic"],
+    "mew": ["psychic"]
+}
 function teamForm(index) {
     let teamformation = [];
     let shitsotp = [];
@@ -32,17 +109,6 @@ function aiSwitch(team, typeAdBool){
   return mainguy
 }
 
-function superMoveShit(ifSuperEffective){
-  if(ifSuperEffective === true){
-    console.log("yay super effective go brrrrr")
-  }
-}
-
-function stupidMoveSelect(availableMoves[])
-{
-    let moveSelect = availableMoves[Math.floor(Math.random * 3)]
-}
-
 function lowhpSwitch(team, hpoints){
   //const shitshit = team[0]
   let mainguy = team[0];
@@ -58,6 +124,19 @@ function lowhpSwitch(team, hpoints){
   return mainguy
 }
 
+function superMoveShit(moves, playerType){
+    const keys = Object.keys(moves.moveset)
+    console.log(keys)
+    let results = []
+    for(let x = 0; x < 4; x++){
+      let thing = moves.moveset[keys[x]].type
+      let lower = thing.toLowerCase()
+      let shit = playModel.isEffective(lower, playerType)
+      results.push(shit)
+    }
+    console.log(results)
+}
 
-const twitchCon = teamForm(alltheshitsever);
-console.log(aiSwitch(twitchCon, 0.1))
+//const twitchCon = teamForm(alltheshitsever);
+//console.log(aiSwitch(twitchCon, 0.1))
+superMoveShit({"moveset": {"Hydro Pump": {"type": "Water", "category": "Special", "power": 110, "accuracy": 80}, "Ice Beam": {"type": "Ice", "category": "Special", "power": 90, "accuracy": 100}, "Acid Armor": {"type": "Poison", "category": "Status", "power": null, "accuracy": null}, "Quick Attack": {"type": "Normal", "category": "Physical", "power": 40, "accuracy": 100}}})
