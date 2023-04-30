@@ -35,7 +35,6 @@ function aiSwitch(team, typeAdBool){
 function lowhpSwitch(team, hpoints){
   //const shitshit = team[0]
   let mainguy = team[0];
-  console.log(mainguy)
   let hp = hpoints;
   let chooser = Math.floor(Math.random() * 5); 
   
@@ -49,7 +48,6 @@ function lowhpSwitch(team, hpoints){
 
 function superMoveShit(moves, playerType){
     const keys = Object.keys(moves.moveset)
-    console.log(keys)
     let results = []
     for(let x = 0; x < 4; x++){
       let thing = moves.moveset[keys[x]].type
@@ -57,7 +55,6 @@ function superMoveShit(moves, playerType){
       let shit = playModel.isEffective(lower, playerType)
       results.push(shit)
     }
-    console.log(results)
 }
 
 //const twitchCon = teamForm(alltheshitsever);
