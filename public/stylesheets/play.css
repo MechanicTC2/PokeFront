@@ -1,7 +1,7 @@
 body {
     padding: 50px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-    background-color: #dfebed;
+    background-color: #FFFFFF;
   }
   a {
     color: #00B7FF;
@@ -13,7 +13,11 @@ body {
   body, html {
     height: 100%;
   }
-  
+  .button-container {
+    display:inline-block;
+    position:relative;
+  }
+
   .bg {
     z-index: -2;
     /* The image used */
@@ -32,30 +36,26 @@ body {
     top: 500px; 
     left: 250px
   }
-#move{
-  z-index: 10 !important;
-  width: 20%; 
-  height: 100px
-}
-#swit1{
-  width:16%;
-  height: 50px;
-}
-#swit2{
-  width:16%;
-  height: 50px;
-}
-#swit3{
-  width:16%;
-  height: 50px;
-}
-#swit4{
-  width:16%;
-  height: 50px;
-}
-#swit5{
-  width:16%;
-  height: 50px;
+  .button-container {
+    position: absolute;
+    top: 85%;
+    left: 20%;
+    background-color: white;
+    border-radius: 25px;
+    color:black;
+    text-transform:uppercase;
+    padding: 1em 1.5em;
+  }
+  #move {
+    background-color: lightgray;
+    color: black;
+    height: 100px;
+    width: 200px;
+    border-radius: 25px;
+  }
+#swit{
+  width:13.3333333333%;
+  height: 10%;
 }
 #hpbg1{
   position: absolute;
