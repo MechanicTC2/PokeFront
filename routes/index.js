@@ -33,7 +33,7 @@ router.get('/play', function(req, res) {
   const moveDetails3 = moveset[info[2]];
   const moveDetails4 = moveset[info[3]];
 
-  console.log(moveDetails1, moveDetails2, moveDetails3, moveDetails4)
+  console.log()
 
 
   if (team1.length != 0 && team2.length != 0) {
