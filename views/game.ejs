@@ -7,6 +7,21 @@
             console.log(x)
             x.play()
         });
+        // function switched(x,team){
+        //     var splitString = team.split(",")
+        //     var y = splitString[x];
+        //     var newX = String(x)
+        //     var currelem = document.getElementById("bsprite")
+        //     var currbtn = document.getElementById("swit" + x)
+        //     console.log(currbtn.innerHTML)
+        //     for(let i = 0; i<6; i++){
+        //         if()
+        //     }
+        //     currelem.src = "/images/PBACK/"+y+".png"
+        //     var t = team[x]
+        //     team[x] = 
+        //     console.log("done")
+        // }
      </script>
     <head>
         <title><%= title %></title>
@@ -39,5 +54,12 @@
         <div id = "hp1"></div>
         <div id = "hpbg2"></div>
         <div id = "hp2"></div>
+       <center><p>
+            <button type = "button" id = "swit1" onclick="switched(1, '<%=team1%>')"><%=team1[1]%></button>
+            <button type = "button" id = "swit2" onclick="switched(2, '<%=team1%>')"><%=team1[2]%></button>
+            <button type = "button" id = "swit3" onclick="switched(3, '<%=team1%>')"><%=team1[3]%></button>
+            <button type = "button" id = "swit4"onclick="switched(4, '<%=team1%>')"><%=team1[4]%></button>
+            <button type = "button" id = "swit5"onclick="switched(5, '<%=team1%>')"><%=team1[5]%></button>
+        </p></center>
     </body>
 </html>

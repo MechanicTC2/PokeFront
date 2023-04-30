@@ -19,7 +19,7 @@ body {
   }
 
   .bg {
-    z-index: -1;
+    z-index: -2;
     /* The image used */
     background-image: url("/images/battlebackground.png");
   
@@ -27,6 +27,9 @@ body {
     height: 100%;
   
     /* Center and scale the image nicely */
+  }
+  #back{
+    z-index: -3 !important;
   }
   #pb{
     width: 45px; 
@@ -64,11 +67,11 @@ body {
 }
 #hp1{
   position: absolute;
-  width:295px;
-  height:25px;
+  width:296px;
+  height:26px;
   background:green;
-  top: 150px;
-  left:400px;
+  top: 152px;
+  left:402px;
 }
 #hpbg2{
   position: absolute;
@@ -76,13 +79,13 @@ body {
   height:30px;
   background:gray;
   top: 485px;
-  left:755px;
+  left:745px;
 }
 #hp2{
   position: absolute;
-  width:295px;
-  height:25px;
+  width:296px;
+  height:26px;
   background:green;
-  top: 490px;
-  left: 760px;
+  top: 487px;
+  left: 747px;
 }
