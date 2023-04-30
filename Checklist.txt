@@ -1,0 +1,13 @@
+sup bro.
+
+FINISHED:
+AI Model
+UI Done (kinda)
+Damage Calculation
+Typing onto Pokemon
+Sprites
+Mr. Mimes Sprite
+
+NEED TO DO:
+Finish A
+Assign Moves to UI
