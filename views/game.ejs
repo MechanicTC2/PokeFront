@@ -7,21 +7,17 @@
             console.log(x)
             x.play()
         });
-        // function switched(x,team){
-        //     var splitString = team.split(",")
-        //     var y = splitString[x];
-        //     var newX = String(x)
-        //     var currelem = document.getElementById("bsprite")
-        //     var currbtn = document.getElementById("swit" + x)
-        //     console.log(currbtn.innerHTML)
-        //     for(let i = 0; i<6; i++){
-        //         if()
-        //     }
-        //     currelem.src = "/images/PBACK/"+y+".png"
-        //     var t = team[x]
-        //     team[x] = 
-        //     console.log("done")
-        // }
+        function switched(x,team){
+            var splitString = team.split(",")
+            var y = splitString[x];
+            var newX = String(x)
+            var currelem = document.getElementById("bsprite")
+            currelem.src = "/images/PBACK/"+y+".png"
+            var t = team[x]
+            team[x] = team[0];
+            team[0] = t;
+            console.log("done")
+        }
      </script>
     <head>
         <title><%= title %></title>
