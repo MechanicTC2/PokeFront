@@ -14,8 +14,10 @@ router.get('/', async function(req, res) {
 router.get('/play', function(req, res) {
 var team1 = [];
 var team2 = []
-ai.teamForm
-  res.render('game', { title: "PokeFront Battle V.S. CPU"})
+team1 = ai.teamForm()
+team2 = ai.teamForm()
+console.log(team1)
+  res.render('game', { title: "PokeFront Battle V.S. CPU", playerTeam: team1, enemyTeam: team2})
 });
 
 const HELP = {
